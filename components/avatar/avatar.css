@@ -1,0 +1,47 @@
+:root {
+    --display-background: #e2e8f0;
+}
+
+.display {
+    background-color: var(--display-background);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 0.4rem;
+    height: 10rem;
+    margin:1rem auto;
+    
+    align-items: center;
+}
+
+.round {
+    border-radius: 50%;
+}
+.square{
+    border-radius: 0.3rem;
+}
+.avatar {
+    height: 10rem;
+    width: 10rem;
+}
+
+.xs {
+    height: 2rem;
+    width: 2rem;
+}
+
+.sm {
+    height: 4rem;
+    width: 4rem;
+}
+
+.md {
+    height: 6rem;
+    width: 6rem;
+}
+
+.lg {
+    height: 8rem;
+    width: 8rem;
+}
