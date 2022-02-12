@@ -10,16 +10,17 @@
     width: 80%;
     border-radius: 0.4rem;
     height: 10rem;
-
-    margin-left: auto;
-    margin-right: auto;
+    margin:1rem auto;
+    
     align-items: center;
 }
 
 .round {
     border-radius: 50%;
 }
-
+.square{
+    border-radius: 0.3rem;
+}
 .avatar {
     height: 10rem;
     width: 10rem;
