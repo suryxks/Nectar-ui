@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 :root {
     --display-background: #e2e8f0;
     --primary-background: #dbeafe;
@@ -8,4 +9,7 @@
     --danger-text: #dc2626;
     --success-background: #bbf7d0;
     --success-text: #10b981;
+}
+*{
+    font-family: 'Roboto', sans-serif;
 }
