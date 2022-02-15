@@ -1,0 +1,11 @@
+:root {
+    --display-background: #e2e8f0;
+    --primary-background: #dbeafe;
+    --primary-text: #2563eb;
+    --warning-background: #fed7aa;
+    --warning-text: #f97316;
+    --danger-background: #fca5a5;
+    --danger-text: #dc2626;
+    --success-background: #bbf7d0;
+    --success-text: #10b981;
+}
