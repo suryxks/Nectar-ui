@@ -1,0 +1,29 @@
+@import url("/components/css/common.css");
+@import url('/components/css/components.css');
+ .badge-icon{
+     position: relative;
+     top:-1rem;
+     left:-0.8rem;
+     background-color: var(--primary-text);
+     border-radius: 50%;
+     width:1rem;
+     height:1rem;
+     display: inline-block;
+     text-align: center;
+     color:#fffffe;
+     font-size: small;
+ }
+ .display{
+     flex-direction: row;
+ }
+ .avatar-badge{
+     background-color: var(--primary-text);
+     position: relative;
+     width: 0.8rem;
+     height: 0.8rem;
+     display: inline-block;
+     border-radius: 50%;
+     top:2rem;
+     left:-2rem;
+ }
+ 
