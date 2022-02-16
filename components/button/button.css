@@ -86,7 +86,7 @@
 .floating-btn:hover{
  margin-bottom: 1rem;
 }
-.button:hover{
+button:hover{
   cursor: pointer;
 }
 .display{
