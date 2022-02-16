@@ -1,0 +1,95 @@
+@import url('/components/css/common.css');
+.btn-filled{
+    font-size: 1.5rem;
+    color: var(--white);
+    border-radius: 0.2rem;
+    
+}
+.blue{
+    background-color: var(--primary-text);
+    border: 2px solid var(--primary-text);
+    
+}
+.green{
+    background-color: var(--success-text);
+    border: 2px solid var(--success-text);
+}
+.red{
+    background-color: var(--danger-text);
+    border:2px solid var(--danger-text);
+}
+.link-btn{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    padding:0 0.4rem
+}
+
+.blue-outlined{
+    border:2px solid var(--primary-text);
+    color:var(--primary-text);
+    
+}
+.blue-outlined:visited{
+    color:var(--primary-text)
+}
+.blue-outlined:hover{
+    background-color: var(--primary-text);
+    color:var(--white)
+}
+.green-outlined{
+    border:2px solid var(--success-text);
+    color:var(--success-text);
+    
+}
+.green-outlined:visited{
+    color:var(--success-text)
+}
+.green-outlined:hover{
+    background-color: var(--success-text);
+    color:var(--white)
+}
+.red-outlined{
+    border:2px solid var(--danger-text);
+    color:var(--danger-text);
+    
+}
+.red-outlined:visited{
+    color:var(--danger-text)
+}
+.red-outlined:hover{
+    background-color: var(--danger-text);
+    color:var(--white)
+}
+.icon-btn{
+    background-color: var(--primary-text);
+    color: var(--white);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.2rem;
+    border:2px solid var(--primary-text)
+}
+.icon-btn>img{
+    margin-left:0.5rem;
+}
+.floating-btn{
+    background-color: var(--primary-text);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.floating-btn:hover{
+ margin-bottom: 1rem;
+}
+button:hover{
+  cursor: pointer;
+}
+.display{
+    flex-direction: row;
+    
+}

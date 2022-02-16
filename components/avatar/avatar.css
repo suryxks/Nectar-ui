@@ -1,3 +1,4 @@
+@import url('/components/css/common.css');
 .display {
     background-color: var(--display-background);
     display: flex;
@@ -7,8 +8,8 @@
     border-radius: 0.4rem;
     height: 10rem;
     margin: 1rem auto;
-
     align-items: center;
+    flex-direction: row;
 }
 
 .round {
