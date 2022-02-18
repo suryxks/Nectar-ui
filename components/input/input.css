@@ -1,5 +1,5 @@
 @import url('/components/css/common.css');
-form{
+.form-vertical{
     display: flex;
     flex-direction: column;
     padding:2rem;
@@ -8,11 +8,11 @@ form{
     border-radius: 0.2rem;
     
 }
-input{
+.form-vertical>input{
     font-size: 1rem;
     border-radius: 0.2rem;
 }
-label{
+.form-vertical>label{
     margin: 0.5rem 0;
 }
 .warning>input{
