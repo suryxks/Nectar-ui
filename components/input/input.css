@@ -1,0 +1,42 @@
+@import url('/components/css/common.css');
+.form-vertical{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    background-color: var(--white);
+    margin:1rem;
+    border-radius: 0.2rem;
+    
+}
+.form-vertical>input{
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+.form-vertical>label{
+    margin: 0.5rem 0;
+}
+.warning>input{
+    border:2px solid var(--warning-text);
+    outline: none;
+}
+.warning-text{
+    color: var(--warning-text);
+    margin-top: 0px;
+}
+.danger>input{
+    border:2px solid var(--danger-text);
+    outline: none;
+}
+.danger-text{
+    color: var(--danger-text);
+    margin-top: 0px;
+}
+.success>input{
+    border:2px solid var(--success-text);
+    outline: none;
+}
+.success-text{
+    color: var(--success-text);
+    margin-top: 0px;
+}
+
