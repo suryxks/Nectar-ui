@@ -1,0 +1,12 @@
+@import url('/components/css/common.css');
+.responsive-img{
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+}
+.round-img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    
+}
