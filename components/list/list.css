@@ -19,14 +19,6 @@
     padding: 0;
 }
 
-.ordered-list {
-    background-color: var(--white);
-    min-width: 15rem;
-    display: flex;
-    padding: 1rem;
-    margin: 0.5rem;
-}
-
 .username {
     font-weight: 600;
 }
@@ -37,21 +29,26 @@
 
 .alphabetic-list {
     list-style: lower-alpha;
-    
+
 }
-.roman-list{
+
+.roman-list {
     list-style: lower-roman;
 }
-.disc-list{
+
+.disc-list {
     list-style: disc;
 }
-.square-list{
+
+.square-list {
     list-style: square;
 }
-.circle-list{
+
+.circle-list {
     list-style: circle;
 }
-.unordered-list{
+
+.list-container {
     background-color: var(--white);
     min-width: 15rem;
     display: flex;
