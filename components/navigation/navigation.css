@@ -1,0 +1,57 @@
+@import url('/components/css/common.css');
+.brand{
+    color:var(--cta);
+    margin-left: 1rem;
+    
+}
+.brand>a{
+    text-decoration: none;
+    color: var(--cta);
+    
+}
+.actions{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    
+}
+.display{
+    padding: 1rem;
+}
+.header-nav{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+
+}
+.search-bar{
+    display: flex; 
+}
+.search-icon{
+    position: relative;
+    left:-1.7rem;
+}
+.search-bar>input{
+    
+    font-size: 2rem;
+    outline:none;
+    border: 2px solid var(--cta);
+    border-radius: 0.2rem;
+}
+.btn-cta{
+    font-size: 1.5rem;
+    background-color: var(--cta);
+    color: var(--white);
+    border: 2px solid var(--cta);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+.action{
+margin: 0 1rem;
+}

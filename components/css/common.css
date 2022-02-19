@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap');
 
 :root {
     --display-background: #e2e8f0;
@@ -11,10 +11,11 @@
     --danger-text: #dc2626;
     --success-background: #bbf7d0;
     --success-text: #10b981;
+    --cta:#e60067;
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .display {
