@@ -63,18 +63,18 @@
 .text-right{
     text-align: right;
 }
-.light{
+.fw-light{
     font-weight: 200;
 }
-.regular{
+.fw-regular{
     font-weight: 400;
 }
-.semibold{
+.fw-semibold{
     font-weight: 600;
 }
-.bold{
+.fw-bold{
     font-weight:700;
 }
-.black{
+.fw-black{
     font-weight:900;
 }
