@@ -1,0 +1,57 @@
+@import url('/components/css/common.css');
+@import url('/components/css/components.css');
+
+.stacked-list-item {
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+.stacked-list {
+    background-color: var(--white);
+    min-width: 15rem;
+}
+
+.stacked-list>ul {
+    padding: 0;
+}
+
+.username {
+    font-weight: 600;
+}
+
+.numbered-list {
+    list-style: numbers;
+}
+
+.alphabetic-list {
+    list-style: lower-alpha;
+
+}
+
+.roman-list {
+    list-style: lower-roman;
+}
+
+.disc-list {
+    list-style: disc;
+}
+
+.square-list {
+    list-style: square;
+}
+
+.circle-list {
+    list-style: circle;
+}
+
+.list-container {
+    background-color: var(--white);
+    min-width: 15rem;
+    display: flex;
+    padding: 1rem;
+    margin: 0.5rem;
+}
