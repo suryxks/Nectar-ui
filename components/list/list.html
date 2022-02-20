@@ -5,80 +5,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>list Component</title>
     <link rel="stylesheet" href="./list.css">
 </head>
 
 <body>
-    <h2>Ordered list</h2>
-    <div class="display">
-        <div class="ordered-list list-container">
-            <ol class="numbered-list">
-                <li>Numbered List item 1</li>
-                <li>Numbered List item 2</li>
-                <li>Numbered List item 3</li>
-                <li>Numbered List item 4</li>
-                <li>Numbered List item 5</li>
-            </ol>
-            <ol class="alphabetic-list">
-                <li>alphabetic List item 1</li>
-                <li>alphabetic List item 2</li>
-                <li>alphabetic List item 3</li>
-                <li>alphabetic List item 4</li>
-                <li>alphabetic List item 5</li>
-            </ol>
-            <ol class="roman-list">
-                <li>roman List item 1</li>
-                <li>roman List item 2</li>
-                <li>roman List item 3</li>
-                <li>roman List item 4</li>
-                <li>roman List item 5</li>
-            </ol>
+
+    <nav class="header-nav">
+        <div class="brand">
+
+            <a href="#">
+                <h1 class="heading-lg">Nectar UI</h1>
+            </a>
         </div>
-    </div>
-    <h2>unordered list</h2>
-    <div class="display">
-        <div class="unordered-list list-container">
-            <ul class="square-list">
-                <li>square List item 1</li>
-                <li>square List item 2</li>
-                <li>square List item 3</li>
-                <li>square List item 4</li>
-                <li>square List item 5</li>
-            </ul>
-            <ul class="circle-list">
-                <li>circle List item 1</li>
-                <li>circle List item 2</li>
-                <li>circle List item 3</li>
-                <li>circle List item 4</li>
-                <li>circle List item 5</li>
-            </ul>
-            <ul class="disc-list">
-                <li>disc List item 1</li>
-                <li>disc List item 2</li>
-                <li>disc List item 3</li>
-                <li>disc List item 4</li>
-                <li>disc List item 5</li>
-            </ul>
+
+        <div class="actions">
+            <a href="./components/alert/alert.html"><button class="btn-cta">Docs</button></a>
+            <a href="https://github.com/suryxks/Nectar-ui" target="_blank"><img src="/assets/github.svg"
+                    alt="github-icon"></a>
         </div>
-    </div>
-    <h2>Stacked list</h2>
-    <div class="display">
-        <div class="stacked-list">
+    </nav>
+    <div class="main-section">
+        <nav class="side-nav">
+
             <ul>
-                <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
-                    <p><span class="username">@user </span>followed You</p>
+
+                <li class="sidebar-list-item heading-md fw-bold"><a href="/components/avatar/avatar.html">Avatar</a>
                 </li>
-                <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
-                    <p><span class="username">@user </span>followed You</p>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/alert/alert.html"
+                        class="active">Alert </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/badge/badge.html">Badge </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/button/button.html">Buttons </a>
                 </li>
-                <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
-                    <p><span class="username">@user </span>followed You</p>
-                </li>
-                <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
-                    <p><span class="username">@user </span>followed You</p>
-                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/cards/cards.html">Cards</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/image/image.html">Image</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/input/input.html">Input</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/text-utilities/text.html">Text
+                        utilities</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a
+                        href="/components/navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar-list-item heading-md fw-bold active"> <a href="/components/list/list.html">List</a></li>
             </ul>
+        </nav>
+        <div class="display-code">
+            <h1 class="heading-xl">List</h1>
+            <p class="text-md">Ordered List,Unordered list variants and stacked list are shown below. You can add
+                classes according to your preference to achieve your desired result</p>
+            <h2 class="heading-lg">Ordered list</h2>
+            <div class="display">
+                <div class="ordered-list list-container">
+                    <ol class="numbered-list">
+                        <li>Numbered List item 1</li>
+                        <li>Numbered List item 2</li>
+                        <li>Numbered List item 3</li>
+                        <li>Numbered List item 4</li>
+                        <li>Numbered List item 5</li>
+                    </ol>
+                    <ol class="alphabetic-list">
+                        <li>alphabetic List item 1</li>
+                        <li>alphabetic List item 2</li>
+                        <li>alphabetic List item 3</li>
+                        <li>alphabetic List item 4</li>
+                        <li>alphabetic List item 5</li>
+                    </ol>
+                    <ol class="roman-list">
+                        <li>roman List item 1</li>
+                        <li>roman List item 2</li>
+                        <li>roman List item 3</li>
+                        <li>roman List item 4</li>
+                        <li>roman List item 5</li>
+                    </ol>
+                </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/62125cc75362a500156c2be1"
+                style="width: 100%; height: 242px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">unordered list</h2>
+            <div class="display">
+                <div class="unordered-list list-container">
+                    <ul class="square-list">
+                        <li>square List item 1</li>
+                        <li>square List item 2</li>
+                        <li>square List item 3</li>
+                        <li>square List item 4</li>
+                        <li>square List item 5</li>
+                    </ul>
+                    <ul class="circle-list">
+                        <li>circle List item 1</li>
+                        <li>circle List item 2</li>
+                        <li>circle List item 3</li>
+                        <li>circle List item 4</li>
+                        <li>circle List item 5</li>
+                    </ul>
+                    <ul class="disc-list">
+                        <li>disc List item 1</li>
+                        <li>disc List item 2</li>
+                        <li>disc List item 3</li>
+                        <li>disc List item 4</li>
+                        <li>disc List item 5</li>
+                    </ul>
+                </div>
+                <iframe src="https://www.thiscodeworks.com/embed/62125d0f5362a500156c2be3"
+                    style="width: 100%; height: 242px;" frameborder="0"></iframe>
+            </div>
+            <h2 class="heading-lg">Stacked list</h2>
+            <div class="display">
+                <div class="stacked-list">
+                    <ul>
+                        <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
+                            <p><span class="username">@user </span>followed You</p>
+                        </li>
+                        <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
+                            <p><span class="username">@user </span>followed You</p>
+                        </li>
+                        <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
+                            <p><span class="username">@user </span>followed You</p>
+                        </li>
+                        <li class="stacked-list-item"><img src="../../assets/avatar.jpg" class="avatar sm round">
+                            <p><span class="username">@user </span>followed You</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/62125d435362a500156c2be4"
+                style="width: 100%; height: 294px;" frameborder="0"></iframe>
         </div>
     </div>
 </body>

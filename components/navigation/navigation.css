@@ -1,4 +1,4 @@
-@import url('/components/css/common.css');
+@import url('/components/css/components.css');
 .brand{
     color:var(--cta);
     margin-left: 1rem;
