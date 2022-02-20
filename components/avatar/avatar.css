@@ -1,4 +1,6 @@
 @import url('/components/css/common.css');
+@import url('/components/css/components.css');
+@import url('/style.css');
 .display {
     background-color: var(--display-background);
     display: flex;
