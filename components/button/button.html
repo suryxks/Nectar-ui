@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buttons</title>
     <link href="./button.css" rel="stylesheet">
 </head>
-<body>
-    <h2>Primary Button</h2>
-    <section class="display">
-             <button class="btn-filled blue" >
-                 Blue
-             </button>
-             <button class="btn-filled green" >
-                 Green
-            </button>
-            <button class="btn-filled red" >
-                Red
-            </button>
-            
-    </section>
-    <h2>Link Buttons</h2>
-    <section class="display">
-             <a href="#" class="link-btn blue-outlined">Blue</a>
-             <a href="#" class="link-btn green-outlined">Green</a>
-             <a href="#" class="link-btn red-outlined">Red</a>
-            
-    </section>
-    <h2>Button with icons</h2>
-    <section class="display">
-             <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
 
-             <button class="icon-btn">Message<img src="/assets/send.svg"></button>
-            
-    </section>
-    <h2>Floating button</h2>
-    <section class="display">
-        <a href="#" class="floating-btn"><img src="/assets/x.svg"></a>
-        <a href="#" class="floating-btn"><img src="/assets/upload-white.svg"></a>
-</section>
-    
+<body>
+    <nav class="header-nav">
+        <div class="brand">
+
+            <a href="#">
+                <h1 class="heading-lg">Nectar UI</h1>
+            </a>
+        </div>
+
+        <div class="actions">
+            <a href="./components/alert/alert.html"><button class="btn-cta">Docs</button></a>
+            <a href="https://github.com/suryxks/Nectar-ui" target="_blank"><img src="/assets/github.svg"
+                    alt="github-icon"></a>
+        </div>
+    </nav>
+    <div class="main-section">
+        <nav class="side-nav">
+
+            <ul>
+
+                <li class="sidebar-list-item heading-md fw-bold"><a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/alert/alert.html"
+                        class="active">Alert </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/badge/badge.html">Badge </a></li>
+                <li class="sidebar-list-item heading-md fw-bold active"> <a href="/components/button/button.html">Buttons </a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/cards/cards.html">Cards</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/image/image.html">Image</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/input/input.html">Input</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/text-utilities/text.html">Text
+                        utilities</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a
+                        href="/components/navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/list/list.html">List</a></li>
+            </ul>
+        </nav>
+        <div class="display-code">
+            <h1 class="heading-xl">Buttons</h1>
+            <p class="text-md">Buttons allow users to take actions, and make choices, with a single tap.</p>
+            <h2 class="heading-lg">Primary Button</h2>
+            <p class="text-md">Primary buttons are high-emphasis, distinguished by their use of elevation and fill. They
+                contain actions that are primary to your app you can use by adding<span class="active"> btn-filled
+                </span> class to use these buttons shown below<span></p>
+
+            <section class="display">
+                <button class="btn-filled blue">
+                    Blue
+                </button>
+                <button class="btn-filled green">
+                    Green
+                </button>
+                <button class="btn-filled red">
+                    Red
+                </button>
+
+            </section>
+            <iframe src="https://www.thiscodeworks.com/embed/62123af95362a500156c2b81"
+                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Link Buttons</h2>
+            <p class="text-md">You can use link button by using the class name <span class="active">link-btn</span></p>
+            <section class="display">
+                <a href="#" class="link-btn blue-outlined">Blue</a>
+                <a href="#" class="link-btn green-outlined">Green</a>
+                <a href="#" class="link-btn red-outlined">Red</a>
+
+            </section>
+            <iframe src="https://www.thiscodeworks.com/embed/62123b675362a500156c2b83"
+                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Button with icons</h2>
+            <p class="text-md">You can use  buttons with icons by using the class name <span class="active">icon-btn</span></p>
+            <section class="display">
+                <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+                <button class="icon-btn">Message<img src="/assets/send.svg"></button>
+            </section>
+            <iframe src="https://www.thiscodeworks.com/embed/62123be25362a500156c2b86" style="width: 100%; height: 112px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Floating button</h2>
+            <p class="text-md">You can use  floating action buttons with icons by using the class name <span class="active">floating-btn</span></p>
+            <section class="display">
+                <a href="#" class="floating-btn"><img src="/assets/x.svg"></a>
+                <a href="#" class="floating-btn"><img src="/assets/upload-white.svg"></a>
+            </section>
+            <iframe src="https://www.thiscodeworks.com/embed/62123c925362a500156c2b87" style="width: 100%; height: 112px;" frameborder="0"></iframe>
+        </div>
+    </div>
+
 </body>
+
 </html>
