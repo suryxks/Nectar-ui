@@ -1,4 +1,4 @@
-@import url('/components/css/common.css');
+@import url('/components/css/components.css');
 .text-display{
     display: flex;
     flex-direction: column;

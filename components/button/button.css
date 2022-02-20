@@ -1,4 +1,4 @@
-@import url('/components/css/common.css');
+@import url('/components/css/components.css');
 .btn-filled{
     font-size: 1.5rem;
     color: var(--white);

@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image</title>
     <link rel="stylesheet" href="./image.css">
 </head>
+
 <body>
-    <h2>Responsive Image</h2>
-    <div class="display">
-        <img src="/assets/nature.jpg" class="responsive-img">
-    </div>
-    <h2>Round image</h2>
-    <div class="display">
-        <img src="/assets/nature.jpg" class="round-img">
+
+    <nav class="header-nav">
+        <div class="brand">
+
+            <a href="#">
+                <h1 class="heading-lg">Nectar UI</h1>
+            </a>
+        </div>
+
+        <div class="actions">
+            <a href="./components/alert/alert.html"><button class="btn-cta">Docs</button></a>
+            <a href="https://github.com/suryxks/Nectar-ui" target="_blank"><img src="/assets/github.svg"
+                    alt="github-icon"></a>
+        </div>
+    </nav>
+    <div class="main-section">
+        <nav class="side-nav">
+
+            <ul>
+
+                <li class="sidebar-list-item heading-md fw-bold"><a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/alert/alert.html"
+                        class="active">Alert </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/badge/badge.html">Badge </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/button/button.html">Buttons </a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/cards/cards.html">Cards</a></li>
+                <li class="sidebar-list-item heading-md fw-bold active"> <a href="/components/image/image.html">Image</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/input/input.html">Input</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/text-utilities/text.html">Text
+                        utilities</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a
+                        href="/components/navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/list/list.html">List</a></li>
+            </ul>
+        </nav>
+        <div class="display-code">
+            <h1 class="heading-xl">Image</h1>
+            <h2 class="heading-lg">Round Image</h2>
+            <p class="text-md">You can add class <span class="active">responsive-img</span> to make the image responsive
+                to the parent element's width. The image will take 100% of the parent component width</p>
+            <div class="display">
+                <img src="/assets/nature.jpg" class="responsive-img">
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/62124ac15362a500156c2bac"
+                style="width: 100%; height: 99px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Round image</h2>
+            <p class="text-md">Add <span class="active">rounded-img</span> to achieve a rounded image</p>
+            <div class="display">
+                <img src="/assets/nature.jpg" class="round-img">
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/62124b385362a500156c2baf"
+                style="width: 100%; height: 99px;" frameborder="0"></iframe>
+        </div>
     </div>
 </body>
+
 </html>

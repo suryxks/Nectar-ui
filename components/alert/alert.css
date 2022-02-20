@@ -1,4 +1,6 @@
-@import url(/components/css/common.css);
+@import url('/components/css/common.css');
+@import url('/style.css');
+@import url('/components/css/components.css');
 .display {
     background-color: var(--display-background);
     display: flex;
@@ -28,6 +30,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 0.5rem;
+    width:80%;
 }
 
 .warning {

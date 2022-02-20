@@ -5,37 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Badge</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="badge.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <h2>Badge on icons</h2>
-    <section class="display">
+    <nav class="header-nav">
+        <div class="brand">
 
-
-        <div>
-
-            <img src="/assets/shopping-cart.svg" alt="shopping-cart-icon" class="icon">
-            <span class="badge-icon">4</span>
-            <img src="/assets/user.svg" alt="user-icon" class="icon">
-            <span class="badge-icon">2</span>
+            <a href="#">
+                <h1 class="heading-lg">Nectar UI</h1>
+            </a>
         </div>
-    </section>
-    <h2>
-        Badge on avatar
-    </h2>
-    <section class="display">
-        <!-- <img src="../../assets/avatar.jpg" class="avatar sm round">
-        <span class="avatar-badge"></span> -->
-        <div class="badge-on-avatar"></div>
-        <img src="../../assets/avatar.jpg" class="avatar md round">
-        <span class="avatar-badge"></span>
-        <img src="../../assets/avatar.jpg" class="avatar lg round">
-        <span class="avatar-badge"></span>
-    </section>
+
+        <div class="actions">
+            <a href="./components/alert/alert.html"><button class="btn-cta">Docs</button></a>
+            <a href="https://github.com/suryxks/Nectar-ui" target="_blank"><img src="/assets/github.svg"
+                    alt="github-icon"></a>
+        </div>
+    </nav>
+    <div class="main-section">
+        <nav class="side-nav">
+
+            <ul>
+
+                <li class="sidebar-list-item heading-md fw-bold"><a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/alert/alert.html"
+                        class="active">Alert </a></li>
+                <li class="sidebar-list-item heading-md fw-bold active"> <a href="/components/badge/badge.html">Badge </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/button/button.html">Buttons </a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/cards/cards.html">Cards</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/image/image.html">Image</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/input/input.html">Input</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/text-utilities/text.html">Text
+                        utilities</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a
+                        href="/components/navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/list/list.html">List</a></li>
+            </ul>
+        </nav>
+        <div class="display-code">
+            <h1 class="heading-xl">Badge</h1>
+            <p class="text-md">Badge generates a small badge to the top-right of its child(ren)</p>
+            <h2 class="heading-lg">Badge on icons</h2>
+            <p class="text-md">Icon badges are usually anchor links with icon inside it. You can use the class<span
+                    class="active"> badge-icon </span> to get badge on icon</p>
+            <section class="display">
+                <div>
+                    <img src="/assets/shopping-cart.svg" alt="shopping-cart-icon" class="icon">
+                    <span class="badge-icon">4</span>
+                    <img src="/assets/user.svg" alt="user-icon" class="icon">
+                    <span class="badge-icon">2</span>
+                </div>
+            </section>
+            <iframe src="https://www.thiscodeworks.com/embed/621236195362a500156c2b7d"
+                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">
+                Badge on avatar
+            </h2>
+            <p class="text-md">Badges on avatar is used to indicate the starus and can be used by adding class <span
+                    class="active">avatar-badge</span></p>
+            <section class="display">
+                <img src="../../assets/avatar.jpg" class="avatar md round">
+                <span class="avatar-badge"></span>
+                <img src="../../assets/avatar.jpg" class="avatar lg round">
+                <span class="avatar-badge"></span>
+
+            </section>
+            <iframe src="https://www.thiscodeworks.com/embed/6212376b5362a500156c2b7e"
+                style="width: 100%; height: 138px;" frameborder="0"></iframe>
+        </div>
+
     </div>
 </body>
 
