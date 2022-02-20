@@ -1,2 +1,61 @@
 @import url('/components/css/common.css');
 @import url('/components/css/components.css');
+
+.header-nav {
+    box-shadow: 0px 10px 4px -4px hsl(0deg 0% 0% / 0.2);
+    position: sticky;
+    top:0;
+
+}
+
+.hero {
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 10rem;
+
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.actions-hero {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem auto;
+}
+
+.btn-cta {
+    font-size: 1.5rem;
+}
+
+.btn-cta-outlined {
+    font-size: 1.7rem;
+    background-color: var(--white);
+    box-shadow:
+        2px 4px 8px hsl(0deg 0% 0% / 0.25);
+    border-radius: 0.2rem;
+    color: var(--cta);
+    margin: 2rem;
+    border: none;
+    
+}
+
+.installation {
+   
+    text-align: center;
+    margin: 1rem 5rem;
+}
+
+.display {
+    margin: 1rem auto
+}
+
+.installation>iframe {
+    border-radius: 0.1rem;
+
+}
