@@ -39,6 +39,7 @@ html {
 
 .sidebar-list-item>a {
     text-decoration: none;
+    color: black;
 }
 
 .sidebar-list-item>a:visited {
