@@ -5,190 +5,253 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cards</title>
     <link href="./cards.css" rel="stylesheet">
 </head>
 
 <body>
-    <h2>Vertical Card</h2>
-    <div class="display">
 
-        <div class="card">
-            <img src="/assets/sapiens.jpg">
+    <nav class="header-nav">
+        <div class="brand">
 
-            <p class="title">Sapiens</p>
-            <p class="author">Yuval Noah Harari</p>
-
-            <div class="price">
-
-                <h4>₹799</h4>
-                <h4 class="strike">₹999</h4>
-
-            </div>
-            <div class="button-container">
-                <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
-
-            </div>
-
+            <a href="#">
+                <h1 class="heading-lg">Nectar UI</h1>
+            </a>
         </div>
 
-        <div class="card">
+        <div class="actions">
+            <a href="./components/alert/alert.html"><button class="btn-cta">Docs</button></a>
+            <a href="https://github.com/suryxks/Nectar-ui" target="_blank"><img src="/assets/github.svg"
+                    alt="github-icon"></a>
+        </div>
+    </nav>
+    <div class="main-section">
+        <nav class="side-nav">
 
-            <img src="/assets/meluha.jpg">
-            <p class="title">Immortals of Meluha</p>
-            <p class="author">Amish</figcaption>
-                <div class="price">
+            <ul>
 
-                    <h4>₹799</h4>
-                    <h4 class="strike">₹999</h4>
+                <li class="sidebar-list-item heading-md fw-bold"><a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/alert/alert.html"
+                        class="active">Alert </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/badge/badge.html">Badge </a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/button/button.html">Buttons </a>
+                </li>
+                <li class="sidebar-list-item heading-md fw-bold active"> <a href="/components/cards/cards.html">Cards</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/image/image.html">Image</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/input/input.html">Input</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/text-utilities/text.html">Text
+                        utilities</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a
+                        href="/components/navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar-list-item heading-md fw-bold"> <a href="/components/list/list.html">List</a></li>
+            </ul>
+        </nav>
+        <div class="display-code">
+            <h1 class="heading-xl">Cards</h1>
+            <p class="text-md">Cards contain content and actions about a single subject.</p>
+            <h2 class="heading-lg">Vertical Card</h2>
+            <p class="text-md">This is vertical card with image, card content and an action Button.
+                You can copy html from below code snippet.</p>
+            <div class="display">
+
+                <div class="card">
+                    <img src="/assets/sapiens.jpg">
+
+                    <p class="title">Sapiens</p>
+                    <p class="author">Yuval Noah Harari</p>
+
+                    <div class="price">
+
+                        <h4>₹799</h4>
+                        <h4 class="strike">₹999</h4>
+
+                    </div>
+                    <div class="button-container">
+                        <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                    </div>
 
                 </div>
 
-                <div class="button-container">
-                    <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+                <div class="card">
 
+                    <img src="/assets/meluha.jpg">
+                    <p class="title">Immortals of Meluha</p>
+                    <p class="author">Amish</figcaption>
+                        <div class="price">
+
+                            <h4>₹799</h4>
+                            <h4 class="strike">₹999</h4>
+
+                        </div>
+
+                        <div class="button-container">
+                            <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                        </div>
                 </div>
-        </div>
-    </div>
-    <h2>Cards With Badge</h2>
-    <div class="display">
-
-        <div class="card card-w-badge">
-            <div class="badge">Best Seller</div>
-            <img src="/assets/sapiens.jpg" alt="sapiens" class="card-w-badge-img">
-
-            <p class="title">Sapiens</p>
-            <p class="author">Yuval Noah Harari</p>
-            <div class="price">
-
-                <h4>₹799</h4>
-                <h4 class="strike">₹999</h4>
-
             </div>
-            <div class="button-container">
-                <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+            <iframe src="https://www.thiscodeworks.com/embed/6212445d5362a500156c2b99"
+                style="width: 100%; height: 242px;" frameborder="0"></iframe>
+            <h2 class="headin-lg">Cards With Badge</h2>
+            <p class="text-md">This is vertical card with image, card content , an action Button and a badge.
+                You can copy html from below code snippet.</p>
+            <div class="display">
 
+                <div class="card card-w-badge">
+                    <div class="badge">Best Seller</div>
+                    <img src="/assets/sapiens.jpg" alt="sapiens" class="card-w-badge-img">
+
+                    <p class="title">Sapiens</p>
+                    <p class="author">Yuval Noah Harari</p>
+                    <div class="price">
+
+                        <h4>₹799</h4>
+                        <h4 class="strike">₹999</h4>
+
+                    </div>
+                    <div class="button-container">
+                        <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                    </div>
+
+                </div>
+
+                <div class="card card-w-badge">
+                    <div class="badge">Best Seller</div>
+                    <img src="/assets/meluha.jpg" alt="meluha" class="card-w-badge-img">
+
+                    <p class="title">Immortals of Meluha</p>
+                    <p class="author">Amish</figcaption>
+                        <div class="price">
+
+                            <h4>₹799</h4>
+                            <h4 class="strike">₹999</h4>
+
+                        </div>
+
+                        <div class="button-container">
+                            <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                        </div>
+                </div>
             </div>
+            <iframe src="https://www.thiscodeworks.com/embed/621244fb5362a500156c2b9a"
+                style="width: 100%; height: 255px;" frameborder="0"></iframe>
+            <h2 class="headin-lg">Card width text overlay</h2>
+            <p class="text-md">This is vertical card with image, card content , an action Button and a Text overlay.
+                You can copy html from below code snippet.</p>
+            <div class="display">
 
-        </div>
+                <div class="card card-w-text-overlay">
+                    <img src="/assets/sapiens.jpg">
+                    <div class="text-overlay">Out Of Stock</div>
+                    <p class="title">Sapiens</p>
+                    <p class="author">Yuval Noah Harari</p>
 
-        <div class="card card-w-badge">
-            <div class="badge">Best Seller</div>
-            <img src="/assets/meluha.jpg" alt="meluha" class="card-w-badge-img">
+                    <div class="price">
 
-            <p class="title">Immortals of Meluha</p>
-            <p class="author">Amish</figcaption>
-                <div class="price">
+                        <h4>₹799</h4>
+                        <h4 class="strike">₹999</h4>
 
-                    <h4>₹799</h4>
-                    <h4 class="strike">₹999</h4>
+                    </div>
+                    <div class="button-container">
+                        <button class="icon-btn" disabled="true">Add to cart<img
+                                src="/assets/shopping-cart-white.svg"></button>
+
+                    </div>
 
                 </div>
 
-                <div class="button-container">
-                    <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+                <div class="card card-w-text-overlay">
 
+                    <img src="/assets/meluha.jpg">
+                    <div class="text-overlay">Out Of Stock</div>
+                    <p class="title">Immortals of Meluha</p>
+                    <p class="author">Amish</figcaption>
+                        <div class="price">
+
+                            <h4>₹799</h4>
+                            <h4 class="strike">₹999</h4>
+
+                        </div>
+
+                        <div class="button-container">
+                            <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                        </div>
                 </div>
-        </div>
-    </div>
-    <h2>Card width text overlay</h2>
-    <div class="display">
-
-        <div class="card card-w-text-overlay">
-            <img src="/assets/sapiens.jpg">
-            <div class="text-overlay">Out Of Stock</div>
-            <p class="title">Sapiens</p>
-            <p class="author">Yuval Noah Harari</p>
-
-            <div class="price">
-
-                <h4>₹799</h4>
-                <h4 class="strike">₹999</h4>
-
             </div>
-            <div class="button-container">
-                <button class="icon-btn" disabled="true">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
-
+            <iframe src="https://www.thiscodeworks.com/embed/6212456c5362a500156c2b9b"
+                style="width: 100%; height: 255px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Text Only Card</h2>
+            <div class="display">
+                <div class="text-card">
+                    <h3 class="text-card-title">Title</h3>
+                    <h4 class="text-card-subtitle">Sub Title</h4>
+                    <p class="text-card-content">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                    <a href="#" class="action-btn">Learn More</a>
+                </div>
             </div>
-
-        </div>
-
-        <div class="card card-w-text-overlay">
-
-            <img src="/assets/meluha.jpg">
-            <div class="text-overlay">Out Of Stock</div>
-            <p class="title">Immortals of Meluha</p>
-            <p class="author">Amish</figcaption>
-                <div class="price">
-
-                    <h4>₹799</h4>
-                    <h4 class="strike">₹999</h4>
-
+            <iframe src="https://www.thiscodeworks.com/embed/621245c25362a500156c2b9c"
+                style="width: 100%; height: 177px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Card with Dismiss</h2>
+            <div class="display">
+                <div class="text-card">
+                    <a href="#" class="dismiss"><img src="/assets/x.svg"></a>
+                    <h3 class="text-card-title">Title</h3>
+                    <h4 class="text-card-subtitle">Sub Title</h4>
+                    <p class="text-card-content">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                    <a href="#" class="action-btn">Learn More</a>
                 </div>
-
-                <div class="button-container">
-                    <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
-
-                </div>
-        </div>
-    </div>
-    <h2>Text Card</h2>
-    <div class="display">
-        <div class="text-card">
-            <h3 class="text-card-title">Title</h3>
-            <h4 class="text-card-subtitle">Sub Title</h4>
-            <p class="text-card-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <a href="#" class="action-btn">Learn More</a>
-        </div>
-    </div>
-    <h2>Card with Dismiss</h2>
-    <div class="display">
-        <div class="text-card">
-            <a href="#" class="dismiss"><img src="/assets/x.svg"></a>
-            <h3 class="text-card-title">Title</h3>
-            <h4 class="text-card-subtitle">Sub Title</h4>
-            <p class="text-card-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <a href="#" class="action-btn">Learn More</a>
-        </div>
-    </div>
-    <h2>Cards with shadow</h2>
-    <div class="display ">
-
-        <div class="card card-w-shadow">
-            <img src="/assets/sapiens.jpg">
-
-            <p class="title">Sapiens</p>
-            <p class="author">Yuval Noah Harari</p>
-
-            <div class="price">
-
-                <h4>₹799</h4>
-                <h4 class="strike">₹999</h4>
-
             </div>
-            <div class="button-container">
-                <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+            <iframe src="https://www.thiscodeworks.com/embed/621246125362a500156c2b9d"
+                style="width: 100%; height: 190px;" frameborder="0"></iframe>
+            <h2 class="heading-lg">Cards with shadow</h2>
+            <div class="display ">
 
+                <div class="card card-w-shadow">
+                    <img src="/assets/sapiens.jpg">
+
+                    <p class="title">Sapiens</p>
+                    <p class="author">Yuval Noah Harari</p>
+
+                    <div class="price">
+
+                        <h4>₹799</h4>
+                        <h4 class="strike">₹999</h4>
+
+                    </div>
+                    <div class="button-container">
+                        <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                    </div>
+
+                </div>
+
+                <div class="card card-w-shadow">
+
+                    <img src="/assets/meluha.jpg">
+                    <p class="title">Immortals of Meluha</p>
+                    <p class="author">Amish</figcaption>
+                        <div class="price">
+
+                            <h4>₹799</h4>
+                            <h4 class="strike">₹999</h4>
+
+                        </div>
+
+                        <div class="button-container">
+                            <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
+
+                        </div>
+                </div>
             </div>
-
-        </div>
-
-        <div class="card card-w-shadow">
-
-            <img src="/assets/meluha.jpg">
-            <p class="title">Immortals of Meluha</p>
-            <p class="author">Amish</figcaption>
-                <div class="price">
-
-                    <h4>₹799</h4>
-                    <h4 class="strike">₹999</h4>
-
-                </div>
-
-                <div class="button-container">
-                    <button class="icon-btn">Add to cart<img src="/assets/shopping-cart-white.svg"></button>
-
-                </div>
+            <iframe src="https://www.thiscodeworks.com/embed/621246725362a500156c2b9e"
+                style="width: 100%; height: 242px;" frameborder="0"></iframe>
         </div>
     </div>
 </body>
